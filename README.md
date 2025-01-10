@@ -1,3 +1,5 @@
+# English
+
 ---
 
 # **AJAZZ-APEX-TimeSync**
@@ -46,3 +48,50 @@ A script for automatically synchronizing time on the docking station for AJAZZ A
 2. To ensure the script runs automatically at startup without opening console windows, add the start.vsl file to your Windows startup folder. This will automatically trigger the     script when the system boots, and it will run silently in the background without opening any console windows.
 
 ---
+
+# Руссик
+
+---
+
+# **AJAZZ-APEX-TimeSync**
+
+Скрипт для автоматической синхронизации времени на док-станции для мышек серии AJAZZ Apex. Файл `main.js` взят напрямую с [qmk.top](https://qmk.top/), который используется для настройки мыши. Скрипт работает только на Windows.
+
+### **Требования:**
+
+1. **Node.js**  
+   Для работы скрипта требуется Node.js. Его можно скачать с [официального сайта Node.js](https://nodejs.org/).
+
+2. **Puppeteer**  
+   Puppeteer — это библиотека для Node.js, которая используется для автоматизации браузера.
+
+3. **Операционная система**  
+   Скрипт работает только на **Windows**.
+
+### **Установка:**
+
+1. Склонируйте или загрузите репозиторий:
+
+   ```bash
+   git clone https://github.com/failman34/AJAZZ-APEX-TimeSync.git
+   ```
+
+2. Перейдите в папку с проектом:
+
+   ```bash
+   cd AJAZZ-APEX-TimeSync
+   ```
+
+3. Установите все зависимости. Выполните следующую команду в папке с файлами проекта:
+
+   ```bash
+   npm install puppeteer
+   ```
+
+### **Использование:**
+
+1. Чтобы запустить скрипт, выполните файл **start.bat** или **start.vsl**.  
+
+2. Чтобы настроить автоматический запуск скрипта при загрузке системы без открытия окон консоли, добавьте файл **start.vsl** в папку автозагрузки Windows. Это позволит запускать скрипт автоматически при включении компьютера, при этом он будет работать в фоновом режиме без отображения окон консоли.
+
+--- 
